@@ -2,12 +2,12 @@ body{
 	background: #fff;
 }
 .cart{
-	margin: 100px 0;
+	margin: 40px 0;
 	background-color: #F6F5FA;;
-	padding: 60px 0;
+	padding: 30px 0;
 }
 .total-price{
-	padding-bottom: 15px;
+	padding-bottom: 14px;
 }
 .cart-item{
 	background-color: #fff;
@@ -43,6 +43,7 @@ body{
 .input-group{
 	width: unset;
 	flex-wrap: nowrap;
+	outline: none;
 }
 .status{
 	text-align: right;
@@ -51,6 +52,9 @@ body{
     float: right;
     padding: 10px 30px;
 	font-size: 19px;
-	background-color: #2FBE70;
+	font-weight: bold;
 	border: none;
+}
+.fas{
+	outline: none;
 }
